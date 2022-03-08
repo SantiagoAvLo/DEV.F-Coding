@@ -1,0 +1,25 @@
+
+*/*Mobile First*/
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: lightcoral;
+}
+/*Smartphone*/
+@media screen and (min-width: 401px) {
+    body{
+        background-color: lightcyan;
+    }
+}
+
+/*Acomodo de imagen*/
+.img{
+    margin: 0%;
+    padding: 0%;
+    display: inline;
+    width: 49.5%;
+}

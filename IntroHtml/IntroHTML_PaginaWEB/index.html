@@ -5,98 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página web</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header >
-        <figure><img src="Imagenes\BG.png" width="350" height="70" alt="Blog de Viaje"></figure>
+        <img src="Imagenes\BG.png" width="350" height="70" alt="Blog de Viaje">
     </header>
-    <center>
-        <nav>
-            <button style="color: black; background-color: lightblue;">
-                <a href="#"> <h2>Inicio</h2></a>
-            </button>
-            <button style="color: black; background-color: lightblue;">
-                <a href="#"> <h2>Nosotros</h2></a>
-            </button>
-            <button style="color: black; background-color: lightblue;">
-                <a href="#"> <h2>Blog</h2></a>
-            </button>
-            <button style="color: black; background-color: lightblue;">
-                <a href="#"> <h2>Tienda</h2></a>
-            </button>
-            <button style="color: black; background-color: lightblue;">
-                <a href="#"> <h2>Contactos</h2></a>
-            </button>
+    
+        <nav id="Menu">
+            <a href="#"> Inicio</a>
+            <a href="#"> Nosotros</a>
+            <a href="#"> Blog</a>
+            <a href="#"> Tienda</a>
+            <a href="#"> Contactos</a>
         </nav>
-    </center>
     
         <main>
-            <section>
-                <article> 
-                    <header><h1> Londres</h1> </header>   
-                    <figure><img src="Imagenes\LO.jpg" width="300" height="250" alt="Londres"></figure>
-                    <h3> Est sit elit esse minim magna laboris minim. Ea est fugiat anim eiusmod mollit consectetur esse aute incididunt. Nostrud veniam reprehenderit excepteur tempor proident id proident pariatur commodo ut consequat pariatur culpa proident. Reprehenderit elit culpa reprehenderit ex mollit laboris. Officia labore aliquip incididunt velit mollit sit adipisicing non sunt dolor velit id sunt ipsum.</h3> 
-                    <footer><button style="color: black; background-color: lightblue;"><h3>Acerca de </h3></button></footer>
-                </article>
-                    <header><h1> Londres 2</h1> </header>   
-                    <figure><img src="Imagenes\PO.jpg" width="300" height="250" alt="Londres 2"></figure>
-                    <h3> Est sit elit esse minim magna laboris minim. Ea est fugiat anim eiusmod mollit consectetur esse aute incididunt. Nostrud veniam reprehenderit excepteur tempor proident id proident pariatur commodo ut consequat pariatur culpa proident. Reprehenderit elit culpa reprehenderit ex mollit laboris. Officia labore aliquip incididunt velit mollit sit adipisicing non sunt dolor velit id sunt ipsum.</h3> 
-                    <footer><button style="color: black; background-color: lightblue;"><h3>Acerca de </h3></button></footer>
-                </article>
-                    <header><h1> Londres 3</h1> </header>   
-                    <figure><img src="Imagenes\IO.jpg" width="300" height="250" alt="Londres 3"></figure>
-                    <h3> Est sit elit esse minim magna laboris minim. Ea est fugiat anim eiusmod mollit consectetur esse aute incididunt. Nostrud veniam reprehenderit excepteur tempor proident id proident pariatur commodo ut consequat pariatur culpa proident. Reprehenderit elit culpa reprehenderit ex mollit laboris. Officia labore aliquip incididunt velit mollit sit adipisicing non sunt dolor velit id sunt ipsum.</h3> 
-                    <footer><button style="color: black; background-color: lightblue;"><h3>Acerca de </h3></button></footer>
-                </article>
-            </section>
-            <aside style="background-color: lightcoral;">
-                <h2>Navegador:</h2>
-                <center>
-                    <nav>
-                        <button style="color: black; background-color: lightblue;">
-                            <a href="#"> <h2>Inicio</h2></a>
-                        </button>
-                        <button style="color: black; background-color: lightblue;">
-                            <a href="#"> <h2>Nosotros</h2></a>
-                        </button>
-                        <button style="color: black; background-color: lightblue;">
-                            <a href="#"> <h2>Blog</h2></a>
-                        </button>
-                        <button style="color: black; background-color: lightblue;">
-                            <a href="#"> <h2>Tienda</h2></a>
-                        </button>
-                        <button style="color: black; background-color: lightblue;">
-                            <a href="#"> <h2>Contactos</h2></a>
-                        </button>
-                    </nav>
-                </center>
-            </aside>
+            <div style="overflow: auto;">
+                <section>
+                    <article class="art"> 
+                        <header><h2> Viajar a Londres</h2></header> 
+                        <div> 
+                            <img src="Imagenes\LO.jpg" alt="Londres">
+                            <h3> Est sit elit esse minim magna laboris minim. Ea est fugiat anim eiusmod mollit consectetur esse aute incididunt. Nostrud veniam reprehenderit excepteur tempor proident id proident pariatur commodo ut consequat pariatur culpa proident. Reprehenderit elit culpa reprehenderit ex mollit laboris. Officia labore aliquip incididunt velit mollit sit adipisicing non sunt dolor velit id sunt ipsum.</h3> 
+                        </div> 
+                        <button><h3>Acerca de </h3></button>
+                    </article>
+                    <article class="art">
+                        <header><h2> Puente de la Torre</h2> </header> 
+                        <div>
+                            <img src="Imagenes\PO.jpg" alt="Londres 2">
+                            <h3> Est sit elit esse minim magna laboris minim. Ea est fugiat anim eiusmod mollit consectetur esse aute incididunt. Nostrud veniam reprehenderit excepteur tempor proident id proident pariatur commodo ut consequat pariatur culpa proident. Reprehenderit elit culpa reprehenderit ex mollit laboris. Officia labore aliquip incididunt velit mollit sit adipisicing non sunt dolor velit id sunt ipsum.</h3> 
+                        </div>  
+                        <button><h3>Acerca de </h3></button>
+                    </article>
+                    <article class="art">
+                        <header><h2> Londres 3</h2> </header>
+                        <div>  
+                            <img src="Imagenes\IO.jpg" alt="Londres 3">
+                            <h3> Est sit elit esse minim magna laboris minim. Ea est fugiat anim eiusmod mollit consectetur esse aute incididunt. Nostrud veniam reprehenderit excepteur tempor proident id proident pariatur commodo ut consequat pariatur culpa proident. Reprehenderit elit culpa reprehenderit ex mollit laboris. Officia labore aliquip incididunt velit mollit sit adipisicing non sunt dolor velit id sunt ipsum.</h3> 
+                        </div> 
+                        <button><h3>Acerca de </h3></button>
+                    </article>
+                </section>
+                <aside>
+                    <h2>Navegador:</h2>
+                    <ul><a href="#"> Inicio</a></ul>
+                    <ul><a href="#"> Nosotros</a></ul>
+                    <ul><a href="#"> Blog</a></ul>
+                    <ul><a href="#"> Tienda</a></ul>
+                    <ul><a href="#"> Contactos</a></ul>
+                </aside>
+            </div>
         </main>
-        <footer style="background-color: lightblue;">
+        <footer>
             <section>
-                <article>
-                    <h4 style="color: black;">Ullamco veniam aute cillum ipsum elit minim est sit. Eu veniam quis commodo id occaecat ipsum aute. Ex ex Lorem nulla duis minim mollit.</h4>
-                    <center>
-                        <nav>
-                            <button style="color: black; background-color: lightblue;">
-                                <a href="#"> <h2>Inicio</h2></a>
-                            </button>
-                            <button style="color: black; background-color: lightblue;">
-                                <a href="#"> <h2>Nosotros</h2></a>
-                            </button>
-                            <button style="color: black; background-color: lightblue;">
-                                <a href="#"> <h2>Blog</h2></a>
-                            </button>
-                            <button style="color: black; background-color: lightblue;">
-                                <a href="#"> <h2>Tienda</h2></a>
-                            </button>
-                            <button style="color: black; background-color: lightblue;">
-                                <a href="#"> <h2>Contactos</h2></a>
-                            </button>
-                        </nav>
-                    </center>
+                <article style="float: left;width: 50%;">
+                    <h3>Sobre Nosotros</h3>
+                        <p>Ullamco veniam aute cillum ipsum elit minim est sit. Eu veniam quis commodo id occaecat ipsum aute. Ex ex Lorem nulla duis minim mollit.</p>
                 </article>
+                <article style="float: right;" >
+                    <h3>Menú de Navegacón</h3>
+                    <a href="#"> Inicio</a>
+                    <a href="#"> Nosotros</a>
+                    <a href="#"> Blog</a>
+                    <a href="#"> Tienda</a>
+                    <a href="#"> Contactos</a>
+                </article>    
             </section>
+            <div>
+                &
+            </div>
         </footer>
 </body>
 </html>

@@ -1,0 +1,37 @@
+*{
+    color: #ab32de;
+}
+/* "*" sirve para seleccionar todo el doc*/
+
+#h2{
+
+}
+/* "#nombre" sirve para seleccionar un id*/
+
+.h2{
+
+}
+/* ".nombre" sirve para seleccionar una clase*/
+
+[atributo="sii"]{
+
+}
+/* Podemos crear cualquier atributo que queramos */
+
+h2 p span:hover{
+    color: red;
+}
+/* "nombre:hover" sirve para cambiar un color cuando el mouse esta encima*/
+/* Podemos seleccionar un atributo "nombre exterior nombre del atributo*/
+
+h2{
+    color: gray; !important
+}
+/* "!important" sirve para insertar una cualidad sin importar el orden de selectividad*/
+
+.form_input{
+    color: blue;
+}
+.form_input--active{
+    color: grey;
+}
